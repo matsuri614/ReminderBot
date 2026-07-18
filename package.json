@@ -1,0 +1,22 @@
+{
+  "name": "reminderbot",
+  "version": "1.0.0",
+  "description": "Discordで指定時間後に通知するリマインダーBot",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "pg": "^8.22.0"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
